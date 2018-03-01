@@ -54,7 +54,7 @@ Usage example
 ![Example image](./images/UsageExample.png)
 
 ```javascript
-    const shapeInteraction = require('./index.js');
+    const shapeInteraction = require('shapes-interaction');
 
     const segment = [[160, 160], [280, 280]];
     const circle = [[375, 250], 40];
