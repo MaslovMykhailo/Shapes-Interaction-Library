@@ -1,11 +1,23 @@
 {
-  "name": "shapes-interaction-library",
-  "version": "1.0.0",
-  "description": "",
+  "name": "shapes-interaction",
+  "version": "1.0.1",
+  "description": "A lightweight library of basic geometry shapes interactions",
+  "keywords": [
+    "intersection",
+    "contain",
+    "shapes",
+    "geometry",
+    "point",
+    "segment",
+    "rectangle",
+    "polygon",
+    "circle"
+  ],
   "main": "index.js",
   "directories": {
     "lib": "lib",
-    "test": "test"
+    "test": "test",
+    "images": "images"
   },
   "dependencies": {},
   "devDependencies": {
@@ -20,7 +32,7 @@
     "type": "git",
     "url": "git+https://github.com/maslovmichail20/Shapes-Intersection-Library.git"
   },
-  "author": "",
+  "author": "Maslov M. <maslov.mikhail2000@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/maslovmichail20/Shapes-Intersection-Library/issues"
