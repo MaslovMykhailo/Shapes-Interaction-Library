@@ -13,7 +13,7 @@ $ npm install shapes-interaction
 ```
 web :
 ```
-<script src="unpkg.com/shapes-interaction@1.0.0/webIndex.js"></script>
+<script src="unpkg.com/shapes-interaction@1.0.1/webIndex.js"></script>
 ```
 
 API
