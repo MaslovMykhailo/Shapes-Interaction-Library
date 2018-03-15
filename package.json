@@ -1,6 +1,6 @@
 {
   "name": "shapes-interaction",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight library of basic geometry shapes interactions",
   "keywords": [
     "intersection",
