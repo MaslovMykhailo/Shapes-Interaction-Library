@@ -54,22 +54,22 @@ Usage example
 ![Example image](./images/UsageExample.png)
 
 ```javascript
-    const shapeInteraction = require('shapes-interaction');
+    const shapesInteraction = require('shapes-interaction');
 
     const segment = [[160, 160], [280, 280]];
     const circle = [[375, 250], 40];
     const rectangle = [[210, 160], 150, 90];
     const polygon = [[75, 155], [245, 35], [420, 155], [355, 350], [140, 350]];
 
-    shapeInteraction.intersection(segment, rectangle);  // true
-    shapeInteraction.intersection(circle, segment);     // false
-    shapeInteraction.intersection(rectangle, circle);   // true
-    shapeInteraction.intersection(polygon, circle);     // true
-    shapeInteraction.intersection(rectangle, polygon);  // false
-    shapeInteraction.intersection(polygon, segment);    // false
+    shapesInteraction.intersection(segment, rectangle);  // true
+    shapesInteraction.intersection(circle, segment);     // false
+    shapesInteraction.intersection(rectangle, circle);   // true
+    shapesInteraction.intersection(polygon, circle);     // true
+    shapesInteraction.intersection(rectangle, polygon);  // false
+    shapesInteraction.intersection(polygon, segment);    // false
 
-    shapeInteraction.contain(polygon, rectangle);       // true
-    shapeInteraction.contain(polygon, segment);         // true
-    shapeInteraction.contain(polygon, circle);          // false
-    shapeInteraction.contain(rectangle, segment);       // false
+    shapesInteraction.contain(polygon, rectangle);       // true
+    shapesInteraction.contain(polygon, segment);         // true
+    shapesInteraction.contain(polygon, circle);          // false
+    shapesInteraction.contain(rectangle, segment);       // false
 ```
